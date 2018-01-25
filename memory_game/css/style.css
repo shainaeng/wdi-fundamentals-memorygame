@@ -1,33 +1,59 @@
 body {
   text-align: center;
+  margin: 0;
+}
+header {
+  background-color: #F15B31;
+  color: #FFFFFF;
+  padding: 30px 20px;
+}
+nav {
+  background-color: #00A6B3;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main {
+  width: 850px;
+  margin: 35px auto;
 }
 a {
   font-family: "Raleway";
   text-decoration: none;
   text-transform: uppercase;
-  color: #F15B31;
   font-weight: 600;
   font-size: 18px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #F15B31;
+}
+.nav {
+  color: #FFFFFF;
 }
 h1, h2 {
   text-transform: uppercase;
   font-family: "Raleway";
-  color: #0D2C40;
   letter-spacing: 1px;
 }
 h1 {
   font-weight: 400;
   font-size: 45px;
-
+  margin: 0;
 }
 h2 {
   font-weight: 600;
   font-size: 20px;
+  color: #0D2C40;
 }
 p {
   font-family: "Droid Serif";
   line-height: 26px;
   font-size: 18px;
+}
+img {
+  margin-top: 40px;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 .social {
   line-height: 6px;
